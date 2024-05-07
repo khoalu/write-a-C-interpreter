@@ -78,7 +78,7 @@ int expr_type;   // the type of an expression
 void global_declaration() {
     // global_declaration ::= enum_decl | variable_decl | function_decl
     //
-    // enum_decl ::= 'enum' [id] '{' id ['=' 'num'] {',' id ['=' 'num'} '}'
+    // enum_decl ::= 'enum' [id] '{' id ['=' 'num'] {',' id ['=' 'num']} '}'
     //
     // variable_decl ::= type {'*'} id { ',' {'*'} id } ';'
     //
